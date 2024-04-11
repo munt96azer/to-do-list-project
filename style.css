@@ -1,0 +1,123 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #352f5b;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4rem;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+.color {
+  background-image: linear-gradient(to top, #352f5b, rgba(235, 145, 156, 0.2));
+}
+
+.task {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding: 25px;
+  backdrop-filter: blur(3px) saturate(200%);
+  -webkit-backdrop-filter: blur(3px) saturate(200%);
+  background-color: rgba(235, 145, 156, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-bottom: solid 2px #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 20px;
+}
+.icon {
+  font-size: 24px;
+}
+.icon:hover {
+  font-size: 26px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon-star,
+.icon-trash {
+  opacity: 0.5;
+}
+.icon-star:hover {
+  opacity: 1;
+  color: orange;
+}
+.icon-trash:hover {
+  opacity: 1;
+}
+.icon-trash {
+  margin-right: 10px;
+  font-size: 27px;
+}
+
+.next {
+  margin-top: 5rem;
+  font-size: 50px;
+}
+
+form {
+  text-align: center;
+}
+input {
+  width: 18vw;
+  margin-bottom: 40px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 22px;
+  border: solid 4px rgba(235, 145, 156, 0.6);
+}
+
+button {
+  all: unset;
+}
+
+.icon-arrow-up {
+  font-size: 35px;
+  padding: 15px;
+  position: relative;
+  top: 9px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.icon-arrow-up:hover {
+  opacity: 1;
+  font-size: 37px;
+  transition: 0.2s;
+}
+
+.dn {
+  display: none;
+}
+
+.icon-heart {
+  font-size: 23px;
+  color: red;
+  transition: 0.2s;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.orange {
+  color: orange;
+  opacity: 1;
+}
